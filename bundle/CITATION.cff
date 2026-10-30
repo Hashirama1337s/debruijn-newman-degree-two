@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these results, proofs or tools, please cite them as below. Text and data: CC BY 4.0. Code (all .gp, .py and .sh files): MIT."
+title: "Explicit de Bruijn–Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions"
+authors:
+  - name: "Moki & Julio"
+version: "1.0"
+date-released: "{{RELEASE_DATE}}"
+license: CC-BY-4.0
+keywords:
+  - de Bruijn-Newman constant
+  - heat flow
+  - L-functions of degree 2
+  - eta products
+  - Dedekind zeta functions
+  - stable polynomials
+  - interval arithmetic
+  - ball arithmetic
+  - certified winding number

@@ -1,0 +1,11 @@
+Thu Oct 29 06:16:55 ADT 2026
+  ***   Warning: new maximum stack size = 2000003072 (1907.352 Mbytes).
+  *** lfuninit: Warning: increasing stack size to 16000000.
+  *** lfuninit: Warning: increasing stack size to 32000000.
+  *** lfuninit: Warning: increasing stack size to 64000000.
+  *** lfuninit: Warning: increasing stack size to 128000000.
+  *** _lfuninit_theta2_worker: Warning: increasing stack size to 256000000.
+x=12500 y=187/500  H=7.8730183262612186095975638 e-4261 + i*-1.6577948553065456916864990 e-4260  log|H|=-9808.405317610675  arg=-1.127422174040999  ms=298126
+x=12500 y=1/2  H=9.5623497350453463760073102 e-4261 + i*-2.9796201094756854037508848 e-4260  log|H|=-9807.871686672700  arg=-1.260254410683028  ms=301957
+x=11025 y=1/2  H=1.2603896778447846403266310 e-3758 + i*-2.3644401095724782584196388 e-3757  log|H|=-8649.950234372019  arg=-1.517540679079112  ms=229511
+Thu Oct 29 06:30:44 ADT 2026

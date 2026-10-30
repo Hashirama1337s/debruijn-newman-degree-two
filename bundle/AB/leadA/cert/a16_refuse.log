@@ -1,0 +1,6 @@
+BUILD xb=12500 nodes=163841 secs=53.6
+Traceback (most recent call last):
+  File "AB\leadA\cert\cert_wind_ckpt.py", line 99, in <module>
+    raise RuntimeError("cannot certify step at (%s, %s): hlow=%g" % (cx, cy, hlow))
+RuntimeError: cannot certify step at (262100258943/20971520, 0): hlow=7.55347e-30
+exit 1

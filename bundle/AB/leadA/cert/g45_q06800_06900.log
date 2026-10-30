@@ -1,0 +1,9 @@
+BUILD xb=6900 nodes=77825 secs=40.1
+sub-segment 1/4 done, end (6875.0, 0.5), points 202, time 491s
+BUILD xb=6850 nodes=77825 secs=47.2
+sub-segment 2/4 done, end (6850.0, 0.5), points 403, time 986s
+sub-segment 3/4 done, end (6825.0, 0.5), points 604, time 1429s
+BUILD xb=6800 nodes=77825 secs=43.1
+sub-segment 4/4 done, end (6800.0, 0.5), points 805, time 1924s
+DONE g45_q06800_06900 argsum 393.2743887383103 +- 1.7529547873265555e-23 points 805
+exit 0

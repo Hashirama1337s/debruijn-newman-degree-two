@@ -1,0 +1,106 @@
+BUILD xb=4200 nodes=36865 secs=21.4
+sub-segment 1/69 done, end (4200.0, 0.374), points 202, time 237s
+BUILD xb=4250 nodes=36865 secs=23.7
+sub-segment 2/69 done, end (4225.0, 0.374), points 403, time 481s
+sub-segment 3/69 done, end (4250.0, 0.374), points 604, time 711s
+BUILD xb=4300 nodes=36865 secs=23.2
+sub-segment 4/69 done, end (4275.0, 0.374), points 805, time 958s
+sub-segment 5/69 done, end (4300.0, 0.374), points 1006, time 1173s
+BUILD xb=4350 nodes=36865 secs=21.5
+sub-segment 6/69 done, end (4325.0, 0.374), points 1207, time 1409s
+sub-segment 7/69 done, end (4350.0, 0.374), points 1408, time 1623s
+BUILD xb=4400 nodes=36865 secs=21.5
+sub-segment 8/69 done, end (4375.0, 0.374), points 1609, time 1858s
+sub-segment 9/69 done, end (4400.0, 0.374), points 1810, time 2072s
+BUILD xb=4450 nodes=36865 secs=21.5
+sub-segment 10/69 done, end (4425.0, 0.374), points 2011, time 2307s
+sub-segment 11/69 done, end (4450.0, 0.374), points 2212, time 2522s
+BUILD xb=4500 nodes=36865 secs=21.5
+sub-segment 12/69 done, end (4475.0, 0.374), points 2413, time 2758s
+sub-segment 13/69 done, end (4500.0, 0.374), points 2614, time 2980s
+BUILD xb=4550 nodes=36865 secs=22.7
+sub-segment 14/69 done, end (4525.0, 0.374), points 2815, time 3231s
+sub-segment 15/69 done, end (4550.0, 0.374), points 3016, time 3452s
+BUILD xb=4600 nodes=36865 secs=21.1
+sub-segment 16/69 done, end (4575.0, 0.374), points 3217, time 3689s
+sub-segment 17/69 done, end (4600.0, 0.374), points 3418, time 3904s
+BUILD xb=4650 nodes=36865 secs=21.5
+sub-segment 18/69 done, end (4625.0, 0.374), points 3619, time 4141s
+sub-segment 19/69 done, end (4650.0, 0.374), points 3820, time 4356s
+BUILD xb=4700 nodes=36865 secs=21.4
+sub-segment 20/69 done, end (4675.0, 0.374), points 4021, time 4593s
+sub-segment 21/69 done, end (4700.0, 0.374), points 4222, time 4808s
+BUILD xb=4750 nodes=36865 secs=21.7
+sub-segment 22/69 done, end (4725.0, 0.374), points 4423, time 5157s
+sub-segment 23/69 done, end (4750.0, 0.374), points 4624, time 5480s
+BUILD xb=4800 nodes=36865 secs=21.3
+sub-segment 24/69 done, end (4775.0, 0.374), points 4825, time 5718s
+sub-segment 25/69 done, end (4800.0, 0.374), points 5026, time 5933s
+BUILD xb=4850 nodes=36865 secs=21.5
+sub-segment 26/69 done, end (4825.0, 0.374), points 5227, time 6172s
+sub-segment 27/69 done, end (4850.0, 0.374), points 5428, time 6389s
+BUILD xb=4900 nodes=36865 secs=22.0
+sub-segment 28/69 done, end (4875.0, 0.374), points 5629, time 6629s
+sub-segment 29/69 done, end (4900.0, 0.374), points 5830, time 6846s
+BUILD xb=4950 nodes=36865 secs=21.4
+sub-segment 30/69 done, end (4925.0, 0.374), points 6031, time 7085s
+sub-segment 31/69 done, end (4950.0, 0.374), points 6232, time 7302s
+BUILD xb=5000 nodes=36865 secs=21.7
+sub-segment 32/69 done, end (4975.0, 0.374), points 6433, time 7540s
+sub-segment 33/69 done, end (5000.0, 0.374), points 6634, time 7756s
+BUILD xb=5050 nodes=36865 secs=21.6
+sub-segment 34/69 done, end (5025.0, 0.374), points 6835, time 7994s
+sub-segment 35/69 done, end (5050.0, 0.374), points 7036, time 8212s
+BUILD xb=5100 nodes=36865 secs=22.0
+sub-segment 36/69 done, end (5075.0, 0.374), points 7237, time 8451s
+sub-segment 37/69 done, end (5100.0, 0.374), points 7438, time 8661s
+BUILD xb=5150 nodes=36865 secs=20.8
+sub-segment 38/69 done, end (5125.0, 0.374), points 7639, time 8892s
+sub-segment 39/69 done, end (5150.0, 0.374), points 7840, time 9115s
+BUILD xb=5200 nodes=36865 secs=21.2
+sub-segment 40/69 done, end (5175.0, 0.374), points 8041, time 9351s
+sub-segment 41/69 done, end (5200.0, 0.374), points 8242, time 9570s
+BUILD xb=5250 nodes=36865 secs=23.1
+sub-segment 42/69 done, end (5225.0, 0.374), points 8443, time 9813s
+sub-segment 43/69 done, end (5250.0, 0.374), points 8644, time 10027s
+BUILD xb=5300 nodes=36865 secs=21.1
+sub-segment 44/69 done, end (5275.0, 0.374), points 8845, time 10265s
+sub-segment 45/69 done, end (5300.0, 0.374), points 9046, time 10473s
+BUILD xb=5350 nodes=36865 secs=20.6
+sub-segment 46/69 done, end (5325.0, 0.374), points 9247, time 10710s
+sub-segment 47/69 done, end (5350.0, 0.374), points 9448, time 10918s
+BUILD xb=5400 nodes=36865 secs=20.4
+sub-segment 48/69 done, end (5375.0, 0.374), points 9649, time 11145s
+sub-segment 49/69 done, end (5400.0, 0.374), points 9850, time 11350s
+BUILD xb=5450 nodes=73729 secs=39.1
+sub-segment 50/69 done, end (5425.0, 0.374), points 10051, time 11803s
+sub-segment 51/69 done, end (5450.0, 0.374), points 10252, time 12223s
+BUILD xb=5500 nodes=73729 secs=43.4
+sub-segment 52/69 done, end (5475.0, 0.374), points 10453, time 12712s
+sub-segment 53/69 done, end (5500.0, 0.374), points 10654, time 13135s
+BUILD xb=5550 nodes=77825 secs=47.7
+sub-segment 54/69 done, end (5525.0, 0.374), points 10855, time 13674s
+sub-segment 55/69 done, end (5550.0, 0.374), points 11056, time 14196s
+BUILD xb=5600 nodes=77825 secs=55.6
+sub-segment 56/69 done, end (5575.0, 0.374), points 11257, time 14789s
+sub-segment 57/69 done, end (5600.0, 0.374), points 11458, time 15335s
+BUILD xb=5650 nodes=77825 secs=50.0
+sub-segment 58/69 done, end (5625.0, 0.374), points 11659, time 15892s
+sub-segment 59/69 done, end (5650.0, 0.374), points 11860, time 16409s
+BUILD xb=5700 nodes=77825 secs=54.6
+sub-segment 60/69 done, end (5675.0, 0.374), points 12061, time 16983s
+sub-segment 61/69 done, end (5700.0, 0.374), points 12262, time 17546s
+BUILD xb=5750 nodes=77825 secs=47.9
+sub-segment 62/69 done, end (5725.0, 0.374), points 12463, time 18052s
+sub-segment 63/69 done, end (5750.0, 0.374), points 12664, time 18530s
+BUILD xb=5800 nodes=77825 secs=53.1
+sub-segment 64/69 done, end (5775.0, 0.374), points 12865, time 19130s
+sub-segment 65/69 done, end (5800.0, 0.374), points 13066, time 19658s
+BUILD xb=5850 nodes=77825 secs=47.5
+sub-segment 66/69 done, end (5825.0, 0.374), points 13267, time 20192s
+sub-segment 67/69 done, end (5850.0, 0.374), points 13468, time 20688s
+BUILD xb=5900 nodes=77825 secs=49.4
+sub-segment 68/69 done, end (5875.0, 0.374), points 13669, time 21232s
+sub-segment 69/69 done, end (5900.0, 0.374), points 13870, time 21758s
+DONE g45_b2 argsum -6517.144813672395 +- 1.0878724068777006e-07 points 13870
+exit 0

@@ -1,0 +1,6 @@
+BUILD xb=10900 nodes=163841 secs=88.8
+sub-segment 1/2 done, end (10875.0, 0.5), points 203, time 1007s
+BUILD xb=10850 nodes=163841 secs=98.2
+sub-segment 2/2 done, end (10850.0, 0.5), points 404, time 2061s
+DONE g45_q10850_10900 argsum 208.54291358165543 +- 2.2381852075641473e-25 points 404
+exit 0

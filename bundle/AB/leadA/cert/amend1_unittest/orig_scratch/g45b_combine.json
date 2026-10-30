@@ -1,0 +1,20 @@
+{
+ "missing": [
+  "g45_q05900_06000"
+ ],
+ "superseded_ok": true,
+ "winding": 0,
+ "value": 0.0,
+ "radius": 8.600000000000026e-19,
+ "coverage": {
+  "bottom": true,
+  "top": false,
+  "right": true,
+  "left": true
+ },
+ "coverage_ok": false,
+ "certified": false,
+ "walks": 87,
+ "points": 430,
+ "holds": false
+}

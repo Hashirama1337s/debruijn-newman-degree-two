@@ -1,0 +1,16 @@
+1c1
+< """z21_ref2.py -- BAR-Z2-1 degree-2 reference values H_t(x+iy) for L(s, eta(z)eta(23z)) from the lab's certified
+---
+> """z21_ref2_v2.py (BAR-Z2-1-AMEND2: writer fix only) -- BAR-Z2-1 degree-2 reference values H_t(x+iy) for L(s, eta(z)eta(23z)) from the lab's certified
+12c12,20
+<     return "{:.55e}".format(v)
+---
+>     return str(v)   # AMEND2: gmpy2 str() is full precision; "{:.55e}" wrote a format template
+> 
+> # AMEND2 I/O self-check: a 192-bit value must round-trip through fmt -> mpmath to 1e-50 relative
+> import mpmath as _mp
+> _mp.mp.dps = 60
+> _v = mpfr("-1.2345678901234567890123456789012345678901234567e-4259")
+> _r = _mp.mpf(fmt(_v))
+> assert abs(_r / _mp.mpf("-1.2345678901234567890123456789012345678901234567e-4259") - 1) < _mp.mpf("1e-45"), "fmt round-trip"
+> print("fmt self-check OK", fmt(_v), flush=True)

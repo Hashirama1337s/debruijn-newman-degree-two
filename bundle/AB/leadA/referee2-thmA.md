@@ -1,0 +1,29 @@
+I'll check Dobner's hypotheses against the chain, then search for any published explicit degree-2 de Bruijn–Newman bound.Dobner's Theorem 3 matches the quoted strip bound. Next I will read his definitions and Theorem 2, and search for any degree-2 explicit upper bound.**In plain words.** The heat-flow arithmetic and Dobner's de Bruijn quotation match the paper. The write-up is still not a proof: Step 1 justifies the strip by a false statement about \(L\), and the Euler product that makes the strip as narrow as \(|\operatorname{Im} z|\le 1\) is not proved. No published explicit upper bound below \(1/2\) for a degree-2 modular, Hecke, or Dedekind \(L\)-function turned up.
+
+## Verdict: ACCEPTED WITH FIXES
+
+The bound \(0\le\Lambda_\psi\le 21/50+(374/1000)^2/2=0.489938\) is the right conclusion of Dobner's normalization once the fixes below are in the text. It is not proved by the text as written. Certificates BAR-A4, BAR-A6, and BAR-A8 were not re-run here.
+
+**Fixes, in order.**
+
+1. Step 1 names the wrong function. \(L(s,\psi)\) has zeros at the poles of \(\Gamma\), that is at \(s=0,-1,-2,\ldots\), because \(\xi(s)=(\sqrt{23}/(2\pi))^s\Gamma(s)L(s)\) is entire. The sentence "\(L(s)\ne 0\) for \(\operatorname{Re}s<0\)" is false. The object whose zeros are the zeros of \(H_0\) is \(\xi\). What has to be written: \(\xi(s)\ne 0\) for \(\operatorname{Re}s>1\), and \(\xi(s)=\xi(1-s)\) then gives \(\xi(s)\ne 0\) for \(\operatorname{Re}s<0\). Zeros of \(H_0(z)=\xi((1+iz)/2)\) satisfy \(|\operatorname{Im} z|\le 1\). The lines \(\operatorname{Re}s=0\) and \(\operatorname{Re}s=1\) stay inside that closed strip.
+
+2. Absolute convergence does not make a Dirichlet series zero-free. The Euler product is load-bearing for \(\Delta=1\). Agreement of coefficients for \(n\le 2\cdot 10^6\) does not prove \(a_n=\sum_{N(\mathfrak a)=n}\psi(\mathfrak a)\) or \(|a_n|\le d(n)\). Cite the identity of \(\eta(z)\eta(23z)\) with that theta series, or a Sturm bound. Until that citation is in the note, \(\Delta=1\) is an assumption.
+
+3. Dobner's Theorem 2 is "\(\Lambda_F\ge 0\) for every \(F\in\mathcal S^\sharp\)" (OPENED, ar5iv html of arXiv:2005.05142, Theorem 2). His axiom (iii) is \(\xi^F(s)=\overline{\xi^F(1-\overline s)}\), with \(\gamma(s)=\alpha s^m(s-1)^m Q^s\prod\Gamma(\omega_i s+\mu_i)\) and \(\operatorname{Re}\mu_i\ge 0\). There is no free root number. The note never checks (i)–(iii). For this form, \(\gamma(s)=(\sqrt{23}/(2\pi))^s\Gamma(s)\) fits (\(m=0\), \(\omega=1\), \(\mu=0\)), degree \(2\sum\omega_i=2\). Equation (4) needs root number \(+1\) together with real coefficients. LMFDB's \(\varepsilon=1\) for `2-23-23.22-c0-0-0` was a search-page snippet; the L-function page itself did not open. Evenness of \(\Phi\) on the ray \(\tau=iy\), \(y>0\), is the actual argument, and it does check: both square roots in the eta transformation have positive arguments, their product is \(e^{2u}\), and \(-i\sqrt{23}\,\tau=e^{2u}\), so \(\Phi(-u)=\Phi(u)\). Off that ray the branch identity is not justified. Restrict it.
+
+4. Quote the integrable hypothesis. OPENED, Theorem 3: \(\phi\) integrable, \(\phi(u)=\overline{\phi(-u)}\), \(\phi(u)=O(e^{-|u|^b})\) for some \(b>2\), and the conclusion is for \(t>0\). Both applications use \(t>0\) (\(0.42\) and \(0.069938\)). Doubly exponential decay of \(\Phi\), and of \(e^{0.42 u^2}\Phi\), meets \(b>2\). The second-kernel step is Dobner's, in the proof of Theorem 1: "if \(t_0\in\mathcal Z\), then by applying Theorem 3 with \(\phi(u):=e^{t_0 u^2}\Phi_F(u)\), we may conclude \(t\in\mathcal Z\) for all \(t\ge t_0\)." The locator "local text l.594" is not an arXiv locator.
+
+5. Citation repair, OPENED on ar5iv html: Palojärvi–Zhao arXiv:2508.03023, Lemma 3.2 in v1 and still Lemma 3.2 in v2, is the explicit bound \(|L(s)|\le b_{1+\varepsilon}|Q(2+s)|^{(1+\varepsilon-\sigma)/2}|P(s-2)/P(s-1)|\) for \(\operatorname{Re}s\in[-\varepsilon,1+\varepsilon]\). The string "Lemma 3.3" is not in the v2 html. "v2 Lemma 3.3" was not found.
+
+What already matches. Dobner (5) and (6) are the integral definitions of \(\Phi\) and of \(H_t\). The closed form \(\Phi(u)=2e^u f(ie^{2u}/\sqrt{23})\) is the inverse Mellin transform of that normalization, so the factor \(2e^u\) does not shift the time variable. With \(\Delta=1\) and \(t=0.42\), \(\sqrt{1-2\cdot 0.42}=0.4\). The half-plane cover is complete if Steps 2 and 3 are granted: the closed rectangle, the tail on \(y\in[0.374,0.4]\), Step 1 for \(y>0.4\), and \(H(-\overline z)=\overline{H(z)}\) for \(x<0\). Then \(\Delta=0.374\) is legal, and \(0.374^2/2=0.069938\).
+
+## Prior art: OPEN
+
+No published explicit upper bound strictly below \(1/2\) for a modular-form, Hecke-character, or Dedekind-zeta de Bruijn–Newman constant was found (searches 2018–2026 on those phrases, plus newform, cusp form, GL(2), dihedral).
+
+- OPENED, Dobner arXiv:2005.05142: \(\Lambda_F\) exists and \(\Lambda_F\ge 0\) for every extended-Selberg \(L\)-function, degree 2 included. He gets some finite upper bound from an unspecified zero-free half-plane. He does not evaluate a number in \((0,1/2)\) for any degree-2 example.
+- OPENED, Andrade–Chang–Miller arXiv:1310.3477, §2.4, Lemma 2.3: a constant \(\Lambda_f\) exists for holomorphic newforms with even functional equation. Conjecture 2.4 is \(\Lambda_f\ge 0\). No numerical upper bound. Their function-field constants are a different object.
+- ABSTRACT on the arXiv abs page of arXiv:2610.27343 (html did not open): Freire, González-Riquelme, Muñoz, Poblete, and Salinas prove \(\Lambda_L\le 953/3200=0.2978125\) for primitive real Dirichlet characters of conductor \(3\le m\le 400\). Degree 1. That is the nearest explicit result.
+
+Next strike: rewrite Step 1 so the zero-free statement is about \(\xi\), add Dobner's three axioms in the note, and replace the coefficient "hence" by a cited identity of \(\eta(z)\eta(23z)\) with the Hecke theta series.

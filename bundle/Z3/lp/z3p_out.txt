@@ -1,0 +1,17 @@
+nbthreads 1
+  ***   Warning: new stack size = 256000000 (244.141 Mbytes).
+  ***   variable name expected: derivn(p,k)=my(r=p);for(i=1,k,r=deriv(r,'x));r
+  ***                           ^----------------------------------------------
+... skipping file 'z3p.gp'
+PC lambda(x^2+1)=1/2 exact: 1  D_c(x,x) real / D_-c(x,x) not: 1  explicit: 1  bisect bracket [16383/32768, 1/2] 1
+I identity checks 400 failures 0
+K pairs 400 violations(c>0) 0 null violations(c<0) 374 frac 0.93500000000000000000000000000000000000
+L pairs 300 violations 0 strictly smaller (margin 1e-3) 300 min gap 0.0050048828125000000000000000000000000000 median gap 0.69580078125000000000000000000000000000
+NL pairs 300 violations without the 0 233 frac 0.77666666666666666666666666666666666667
+F1 zeta_K coefficients == (1 * a_f) for n <= 3000: 1   a_f[1..9] [1, -1, -1, 0, 0, 1, 0, 1, 0]
+F2 lfunparams zeta_K [23, 1, [0, 0, 1]]  zeta [1, 1, [0]]  eta(z)eta(23z) [23, 1, [0, 1]]
+F3 Lambda_K/(Lambda_zeta*Lambda_f) at 0.3+5i: 1.0000000000000000000000000000000000000 + 0.E-39*I  at 2+i: 1.0000000000000000000000000000000000000 + 0.E-38*I
+F4 Hilbert class field polynomial x^6 - 6*x^4 + 9*x^2 + 23 disc -12167
+F4 zeta_H == zeta * L(chi_-23) * L(f)^2 coefficients n <= 2000: 1
+SUMMARY pcfail=0 ibad=0 kbad=0 knull_frac=0.93500000000000000000000000000000000000 lbad=0 nl_frac=0.77666666666666666666666666666666666667 F1=1 F3=1 F4=1
+exit 0

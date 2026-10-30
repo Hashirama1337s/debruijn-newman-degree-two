@@ -1,0 +1,3 @@
+{'missing': [], 'superseded_ok': True, 'winding': 0, 'value': 8.243367286263915e-54, 'radius': 0.00047698645774796593, 'coverage': {'bottom': True, 'top': True, 'right': True, 'left': True}, 'coverage_ok': True, 'certified': True, 'walks': 87, 'points': 196660, 'holds': True}
+BAR-A14 MAIN (AMEND1 combine) => HOLDS
+ALLDONE

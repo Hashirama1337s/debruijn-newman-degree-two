@@ -1,0 +1,18 @@
+{
+ "missing": [],
+ "superseded_ok": true,
+ "winding": 0,
+ "value": 0.0,
+ "radius": 8.700000000000027e-19,
+ "coverage": {
+  "bottom": true,
+  "top": true,
+  "right": true,
+  "left": true
+ },
+ "coverage_ok": true,
+ "certified": true,
+ "walks": 87,
+ "points": 435,
+ "holds": true
+}

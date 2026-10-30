@@ -1,0 +1,2 @@
+{'missing': ['g45_q05900_06000'], 'superseded_ok': True, 'winding': 0, 'value': 0.0, 'radius': 8.600000000000026e-19, 'coverage': {'bottom': True, 'top': False, 'right': True, 'left': True}, 'coverage_ok': False, 'certified': False, 'walks': 87, 'points': 430, 'holds': False}
+BAR-A14 MAIN (AMEND1 combine) => FAILED

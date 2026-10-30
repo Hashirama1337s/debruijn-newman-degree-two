@@ -1,0 +1,48 @@
+BUILD xb=11050 nodes=163841 secs=93.3
+sub-segment 1/30 done, end (11050.0, 0.374), points 202, time 1114s
+BUILD xb=11100 nodes=163841 secs=92.3
+sub-segment 2/30 done, end (11075.0, 0.374), points 403, time 2148s
+sub-segment 3/30 done, end (11100.0, 0.374), points 604, time 3103s
+BUILD xb=11150 nodes=163841 secs=97.4
+sub-segment 4/30 done, end (11125.0, 0.374), points 805, time 4154s
+sub-segment 5/30 done, end (11150.0, 0.374), points 1006, time 5100s
+BUILD xb=11200 nodes=163841 secs=92.1
+sub-segment 6/30 done, end (11175.0, 0.374), points 1207, time 6136s
+sub-segment 7/30 done, end (11200.0, 0.374), points 1408, time 7081s
+BUILD xb=11250 nodes=163841 secs=92.2
+sub-segment 8/30 done, end (11225.0, 0.374), points 1609, time 8118s
+sub-segment 9/30 done, end (11250.0, 0.374), points 1810, time 9060s
+BUILD xb=11300 nodes=163841 secs=90.3
+sub-segment 10/30 done, end (11275.0, 0.374), points 2011, time 10100s
+sub-segment 11/30 done, end (11300.0, 0.374), points 2212, time 11026s
+BUILD xb=11350 nodes=163841 secs=86.9
+sub-segment 12/30 done, end (11325.0, 0.374), points 2413, time 12018s
+sub-segment 13/30 done, end (11350.0, 0.374), points 2614, time 12971s
+BUILD xb=11400 nodes=163841 secs=91.7
+sub-segment 14/30 done, end (11375.0, 0.374), points 2815, time 14097s
+sub-segment 15/30 done, end (11400.0, 0.374), points 3016, time 15232s
+BUILD xb=11450 nodes=163841 secs=104.5
+sub-segment 16/30 done, end (11425.0, 0.374), points 3217, time 16402s
+sub-segment 17/30 done, end (11450.0, 0.374), points 3418, time 17528s
+BUILD xb=11500 nodes=163841 secs=99.9
+sub-segment 18/30 done, end (11475.0, 0.374), points 3619, time 18611s
+sub-segment 19/30 done, end (11500.0, 0.374), points 3820, time 19724s
+BUILD xb=11550 nodes=163841 secs=99.4
+sub-segment 20/30 done, end (11525.0, 0.374), points 4021, time 20849s
+sub-segment 21/30 done, end (11550.0, 0.374), points 4222, time 21925s
+BUILD xb=11600 nodes=163841 secs=106.3
+sub-segment 22/30 done, end (11575.0, 0.374), points 4423, time 23082s
+sub-segment 23/30 done, end (11600.0, 0.374), points 4624, time 24175s
+BUILD xb=11650 nodes=163841 secs=105.7
+sub-segment 24/30 done, end (11625.0, 0.374), points 4825, time 25229s
+sub-segment 25/30 done, end (11650.0, 0.374), points 5026, time 26230s
+BUILD xb=11700 nodes=163841 secs=89.5
+sub-segment 26/30 done, end (11675.0, 0.374), points 5227, time 27267s
+sub-segment 27/30 done, end (11700.0, 0.374), points 5428, time 28187s
+BUILD xb=11750 nodes=163841 secs=88.9
+sub-segment 28/30 done, end (11725.0, 0.374), points 5629, time 29219s
+sub-segment 29/30 done, end (11750.0, 0.374), points 5830, time 30156s
+BUILD xb=11800 nodes=163841 secs=94.7
+sub-segment 30/30 done, end (11775.0, 0.374), points 6031, time 31235s
+DONE g45_b8 argsum -3141.5589545830962 +- 1.3049997620798435e-20 points 6031
+exit 0

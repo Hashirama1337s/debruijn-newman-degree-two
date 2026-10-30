@@ -1,0 +1,12 @@
+1c1
+< """z21_score.py -- BAR-Z2-1 scorer. Reads ref1.txt (degree-1 PARI control) and ref2.jsonl (degree-2 certified
+---
+> """z21_score_amend1.py -- BAR-Z2-1-AMEND1 scorer (parser fix only; bars unchanged). Reads ref1.txt (degree-1 PARI control) and ref2.jsonl (degree-2 certified
+17c17
+<     p = line.split()
+---
+>     p = line.replace(" E", "E").split()   # AMEND1: PARI prints mantissa and exponent separated by a space
+94c94
+< json.dump(res, open("z21_score.json", "w"), indent=1)
+---
+> json.dump(res, open("z21_score_amend1.json", "w"), indent=1)

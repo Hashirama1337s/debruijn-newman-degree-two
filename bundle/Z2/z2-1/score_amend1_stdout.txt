@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "Z2\z2-1\z21_score_amend1.py", line 43, in <module>
+    val = mp.mpc(mp.mpf(r["re"]), mp.mpf(r["im"])); th = mp.mpf(r["theta_mid"])
+                 ^^^^^^^^^^^^^^^
+  File "<python>\Lib\site-packages\mpmath\ctx_mp_python.py", line 79, in __new__
+    v._mpf_ = mpf_pos(cls.mpf_convert_arg(val, prec, rounding), prec, rounding)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\site-packages\mpmath\ctx_mp_python.py", line 86, in mpf_convert_arg
+    if isinstance(x, basestring): return from_str(x, prec, rounding)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\site-packages\mpmath\libmp\libmpf.py", line 1331, in from_str
+    man, exp = str_to_man_exp(x, base=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\site-packages\mpmath\libmp\libmpf.py", line 1294, in str_to_man_exp
+    float(x)
+ValueError: could not convert string to float: '%.55.6rne'
+exit 1

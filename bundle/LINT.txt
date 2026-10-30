@@ -1,0 +1,12 @@
+Release checker (pre-publication lint), run from the bundle root on every .md, .txt, .py, .json and .cff file:
+prepub_lint: 0 finding(s)
+
+Wider scan (all 1,010 files other than SHA256SUMS, of every extension, including .gp, .sh, .log, .jsonl and .out, which the lint above does not
+walk; the lint's patterns plus lower-case product names, the personal name in any case, WSL drive-mount paths,
+home-folder paths, environment-manager paths, drive-letter paths, the word "session" and the name of the Windows per-user application-data folder): 0 findings outside
+REDACTIONS.md, apart from false positives of the broad patterns, all checked by eye: a variable named "sg" in
+AB/leadA/tail/tail_cert.py and AB/leadA/p11/tail_cert44.py (18 lines), a shell variable SESSION in
+AB/leadA/cert/run_pieces45.sh (2 lines), and the phrase "to check the code runs" in Z3/BAR-Z3-1.md. REDACTIONS.md has 5
+findings, all of one kind: its rule table quotes the removed project-folder prefixes (Windows and WSL forms) and the
+removed gp wrapper so that the redaction can be checked. Those prefixes name a project folder, not a person.
+LINT.txt itself (this file) quotes the same words when it describes them.

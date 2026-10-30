@@ -1,0 +1,9 @@
+BUILD xb=7200 nodes=77825 secs=40.7
+sub-segment 1/4 done, end (7175.0, 0.5), points 202, time 470s
+BUILD xb=7150 nodes=77825 secs=44.4
+sub-segment 2/4 done, end (7150.0, 0.5), points 403, time 971s
+sub-segment 3/4 done, end (7125.0, 0.5), points 604, time 1419s
+BUILD xb=7100 nodes=77825 secs=44.7
+sub-segment 4/4 done, end (7100.0, 0.5), points 805, time 1910s
+DONE g45_q07100_07200 argsum 396.03361808526563 +- 9.975638895657799e-21 points 805
+exit 0

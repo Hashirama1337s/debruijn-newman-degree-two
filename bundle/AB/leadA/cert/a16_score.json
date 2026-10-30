@@ -1,0 +1,29 @@
+{
+ "pred_file_count": 5,
+ "pred_consistent": true,
+ "P1": {
+  "winding": 5,
+  "value": 5.0,
+  "radius": 4.239198302783158e-18,
+  "certified": true,
+  "exit0": true,
+  "points": 84,
+  "secs": 284.87938022613525,
+  "holds": true
+ },
+ "P2": {
+  "builds": [
+   "BUILD xb=12500 nodes=163841 secs=54.6"
+  ],
+  "holds": true
+ },
+ "P3": {
+  "last_line": "exit 1",
+  "json_written": false,
+  "msg": [
+   "RuntimeError: cannot certify step at (262100258943/20971520, 0): hlow=7.55347e-30"
+  ],
+  "holds": true
+ },
+ "HOLDS": true
+}

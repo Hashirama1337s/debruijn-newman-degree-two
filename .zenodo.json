@@ -1,0 +1,36 @@
+{
+  "title": "Moki & Julio: Explicit de Bruijn-Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "version": "1.0",
+  "description": "<p>We prove explicit upper bounds below the classical 1/2 for the de Bruijn-Newman-type constant of degree-2 L-functions: Lambda &lt;= 0.449938 for the L-function of the weight-one newform eta(z)eta(23z) and Lambda &lt;= 0.489938 for that of eta(2z)eta(22z), by a certified (interval-arithmetic) winding-number region, a proved tail estimate and de Bruijn's strip theorem; we found no earlier bound below 1/2 in degree 2. A product lemma, an application of Lieb-Sokal (1981) and Borcea-Branden (no novelty claimed for it), gives the first bounds below 1/2 for Dedekind zeta functions: Lambda &lt;= 0.2978 for quadratic fields with 3 &lt;= |D| &lt;= 400 (conditional on an unrefereed 2026 preprint) and Lambda &lt;= 0.449938 for the cubic field of discriminant -23 and its degree-6 Galois closure. Proofs were checked by independent AI reviewers, not yet by a human expert. Code, sealed predictions, reports and a clean-room record are included. Text CC BY 4.0; code MIT.</p>",
+  "creators": [
+    {
+      "name": "Moki & Julio"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "de Bruijn-Newman constant",
+    "heat flow",
+    "L-functions",
+    "modular forms",
+    "Dedekind zeta function",
+    "Laguerre-Polya class",
+    "interval arithmetic",
+    "computer-assisted proof"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "arXiv:2610.27343",
+      "relation": "references",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "arXiv:2005.05142",
+      "relation": "references",
+      "scheme": "arxiv"
+    }
+  ]
+}

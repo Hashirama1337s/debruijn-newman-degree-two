@@ -1,0 +1,13 @@
+BUILD xb=2500 nodes=18433 secs=11.1
+sub-segment 1/7 done, end (2500.0, 0.374), points 202, time 122s
+BUILD xb=2550 nodes=18433 secs=12.3
+sub-segment 2/7 done, end (2525.0, 0.374), points 403, time 245s
+sub-segment 3/7 done, end (2550.0, 0.374), points 604, time 351s
+BUILD xb=2600 nodes=18433 secs=11.4
+sub-segment 4/7 done, end (2575.0, 0.374), points 805, time 469s
+sub-segment 5/7 done, end (2600.0, 0.374), points 1006, time 578s
+BUILD xb=2650 nodes=18433 secs=11.6
+sub-segment 6/7 done, end (2625.0, 0.374), points 1207, time 696s
+sub-segment 7/7 done, end (2650.0, 0.374), points 1408, time 805s
+DONE fin_b8 argsum -630.8138858087132 +- 7.056111625926173e-23 points 1408
+exit 0

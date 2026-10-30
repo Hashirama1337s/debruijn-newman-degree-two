@@ -1,0 +1,10 @@
+nbthreads=1
+  ***   Warning: new maximum stack size = 6000001024 (5722.047 Mbytes).
+realprecision=57
+  *** lfuninit: Warning: increasing stack size to 16000000.
+  *** lfuninit: Warning: increasing stack size to 32000000.
+  *** lfuninit: Warning: increasing stack size to 64000000.
+  *** lfuninit: Warning: increasing stack size to 128000000.
+  *** _lfuninit_theta2_worker: Warning: increasing stack size to 256000000.
+init ms=39920
+EXIT 0

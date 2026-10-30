@@ -1,0 +1,15 @@
+nbthreads=1
+  ***   Warning: new maximum stack size = 6000001024 (5722.047 Mbytes).
+realprecision=57
+  *** lfuninit: Warning: increasing stack size to 16000000.
+  *** lfuninit: Warning: increasing stack size to 32000000.
+  *** lfuninit: Warning: increasing stack size to 64000000.
+  *** lfuninit: Warning: increasing stack size to 128000000.
+  *** _lfuninit_theta2_worker: Warning: increasing stack size to 256000000.
+init ms=41560 U=12
+one lfunlambda call ms=361
+(12500, 1/2) hu=1/8: log|H|=-9807.871982413983593 arg=-1.260423447692650 ms=237426  (referee 57-digit: -9807.871982413984)
+(12496, 0) hu=1/8:  H=-1.9236313138475565151020328 e-4259 + i*-1.44908 e-4318 ms=233264
+(12496, 0) hu=1/16: H=-1.9236313138475565151020328 e-4259 + i*-6.44505 e-4318 ms=464596
+rel diff 1/8 vs 1/16: 3.706 e-41
+EXIT 0
