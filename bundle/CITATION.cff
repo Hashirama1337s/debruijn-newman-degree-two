@@ -4,7 +4,9 @@ title: "Explicit de Bruijn–Newman bounds below 1/2 in degree 2, and a product 
 authors:
   - name: "Moki & Julio"
 version: "1.0"
-date-released: "{{RELEASE_DATE}}"
+date-released: "2026-10-30"
+doi: "10.5281/zenodo.23794434"
+repository-code: "https://github.com/Hashirama1337s/debruijn-newman-degree-two"
 license: CC-BY-4.0
 keywords:
   - de Bruijn-Newman constant
