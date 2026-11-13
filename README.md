@@ -1,8 +1,8 @@
 # A heat dial for zeros: proven bounds below 1/2 in degree two
 
-**For the L-function of the modular form η(z)η(23z) we proved that a "heat dial" setting of 0.449938 already puts every zero on one line, where classical theory gives 1/2 (checked by AI reviewers, not yet by a human expert; nothing here bears on the Riemann hypothesis itself).**
+**For the L-function of the modular form η(z)η(23z) we proved that a "heat dial" setting of 0.449938 puts every zero on one line, where classical theory gives 1/2 (AI-reviewed, not yet by a human expert; nothing here bears on the Riemann hypothesis).**
 
-[![DOI 10.5281/zenodo.23794434](brand/doi.svg)](https://doi.org/10.5281/zenodo.23794434) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
+[![DOI 10.5281/zenodo.23794431](brand/doi.svg)](https://doi.org/10.5281/zenodo.23794431) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
 Moki & Julio · 2026 · version 1.0
 
@@ -201,10 +201,10 @@ hours); and it stops with "cannot certify step" rather than guess, for example w
 ## How to cite
 
 ```
-Moki & Julio (2026). Explicit de Bruijn–Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23794434
+Moki & Julio (2026). Explicit de Bruijn–Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23794431
 ```
 
-The DOI always resolves to the newest archived version. Machine-readable: [CITATION.cff](CITATION.cff).
+The DOI always resolves to the newest archived version. Version 1.0 is 10.5281/zenodo.23794434. Machine-readable: [CITATION.cff](CITATION.cff).
 Text and data: CC BY 4.0 ([LICENSE](LICENSE)). Code (all .gp, .py and .sh files): MIT ([LICENSE-CODE](LICENSE-CODE)).
 
 ## Related projects
