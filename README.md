@@ -1,16 +1,15 @@
 # A heat dial for zeros: proven bounds below 1/2 in degree two
 
-**Some famous functions come with a "heat dial" that pushes all their zeros onto one line. Classical theory says a
-setting of 1/2 is always enough. For the function of the modular form η(z)η(23z) we proved that 0.449938 is enough. We
-found no earlier bound below 1/2 for a function of this kind ("degree 2"). The proof was checked by AI reviewers,
-not yet by a human expert. The gain is modest, and nothing here bears on the Riemann hypothesis itself.**
+**For the L-function of the modular form η(z)η(23z) we proved that a "heat dial" setting of 0.449938 already puts every zero on one line, where classical theory gives 1/2 (checked by AI reviewers, not yet by a human expert; nothing here bears on the Riemann hypothesis itself).**
 
-**Moki & Julio · 2026** · DOI [10.5281/zenodo.23794434](https://doi.org/10.5281/zenodo.23794434) (v1.0)
+[![DOI 10.5281/zenodo.23794434](brand/doi.svg)](https://doi.org/10.5281/zenodo.23794434) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
+
+Moki & Julio · 2026 · version 1.0
 
 **Read** [NOTE.md](NOTE.md) · **Re-run** [bundle/README.md](bundle/README.md) · **Check how far each claim is
 checked** [bundle/STATUS.md](bundle/STATUS.md)
 
-## The story in a minute
+## In plain words
 
 Number theorists study **L-functions**: functions built from whole numbers, the best known being the Riemann zeta
 function 1 + 1/2^s + 1/3^s + 1/4^s + ... . The places where such a function equals zero, its **zeros**, are where the
@@ -39,9 +38,45 @@ and sextic ones rest on an unrefereed 2026 preprint). The gains over 1/2 are mod
 **nothing here bears on the Riemann hypothesis itself**. The proofs were checked by independent AI reviewers, **not yet by
 a human expert**.
 
-## Climb the ladder
+## At a glance
 
-### Step 1 - the idea (for anyone)
+*The exact claims, for specialists. Terms are explained in "How it works" and "Words you will meet".*
+
+- **Theorem 1 (PROVED, AI-refereed; unconditional, no GRH).** (a) For f_23 = η(z)η(23z) (LMFDB 23.1.b.a, L(s, f_23) =
+  L(s, ψ) for the order-3 class-group character ψ of Q(√-23)), all zeros of H_t are real for t ≥ 19/50 + (374/1000)²/2 =
+  0.449938, so 0 ≤ Λ_ψ ≤ 0.449938. (b) For f_44 = η(2z)η(22z) (44.1.d.a): 0 ≤ Λ_χ ≤ 0.489938.
+- **Theorem P (product lemma; known, no novelty claimed).** For kernels of class D, Λ(Φ ∗ Ψ) ≤ max(Λ(Φ), Λ(Ψ), 0); for
+  F, G, FG in Dobner's extended Selberg class with γ_FG = γ_F γ_G, Λ_FG ≤ max(Λ_F, Λ_G).
+- **Corollaries.** Λ ≤ 953/3200 = 0.2978125 for the Dedekind zeta function of every quadratic field with fundamental
+  discriminant 3 ≤ |D| ≤ 400 (CONDITIONAL on the unrefereed preprint of Freire et al., arXiv:2610.27343); Λ ≤ 0.449938 for
+  the cubic field Q[x]/(x³ - x - 1) of discriminant -23 (rests on Theorem 1(a) and Platt-Trudgian) and for its sextic
+  Galois closure (also conditional on Freire et al.).
+- **Novelty** is a search floor (arXiv and Zenodo, 30 October 2026), not a clearance.
+
+Full statements, proofs and every assumption: [NOTE.md](NOTE.md). Status of every claim, with the bundle folder behind
+it: [bundle/STATUS.md](bundle/STATUS.md).
+
+Full technical record: [TECHNICAL.md](TECHNICAL.md).
+
+## What we do not claim
+
+- **No human expert has checked any of it.** All reviewers are AI reviewers. The tail lemma and the evaluator of
+  Theorem 1(a) had a single full review; Theorem 1(b) had one review of a pipeline shared with (a); Theorem P had one full
+  review plus a check of the identity and sign only.
+- Nothing here bears on the Riemann hypothesis. The gains over 1/2 are modest, and far weaker than the degree-1 bounds.
+- The quadratic-field corollary (and the multiquadratic and sextic ones) rest on an unrefereed 2026 preprint.
+- For Lieb-Sokal (1981) only the abstract was read; their integrability hypotheses were not checked against these kernels.
+  The proof written out in the note uses Borcea-Brändén instead.
+- The clean-room rebuild (15/15 checks) did not re-run the 87 walks (about 120 CPU-hours), the tail interval runs, the
+  Theorem 1(b) runs or the outlook runs; it re-combined and re-checked the stored walks.
+- The outlook in section 5 (a degree-2 effective formula) is HEURISTIC: nothing is claimed and no forecast is made.
+- Failures are on record: the first tail run FAILED on a code gap and was re-run under a sealed amendment; a sealed
+  wall-time prediction was missed (the run was faster); one outlook run lost its output to a writer bug.
+- "We found no earlier bound" is a search floor (arXiv and Zenodo, 30 October 2026), not a clearance.
+
+## How it works
+
+### The idea
 
 A toy example shows the dial at work. The polynomial x² + 1 has no zeros on the real line: its zeros are the imaginary
 numbers i and -i. For polynomials the heat dial is an exact rule; it turns x² - 1 into x² - 1 - 2t (the note's own
@@ -60,7 +95,7 @@ flowchart LR
 
 The first and last arrows use a 1950 theorem of de Bruijn (in the form given by Dobner). The middle step is the new work.
 
-### Step 2 - how it works (for a curious student)
+### A worked example
 
 **De Bruijn's rule.** If every zero lies within distance Δ of the line, then after turning the dial by t it lies within
 the square root of Δ² - 2t. So a further turn of Δ²/2 puts every zero on the line. The classical start is Δ = 1, which
@@ -85,23 +120,7 @@ is computed in **ball arithmetic**: each number carries a guaranteed error bar, 
 [5, 15] × [-1/5, 1/5], and winding 5 on [12496, 12500] × [-1/2, 1/2], equal to 5 sign changes counted by an independent
 method that shares no code. A walk straight through one of those zeros is refused ("cannot certify step"), as it must be.
 
-### Step 3 - the real thing (for specialists)
-
-- **Theorem 1 (PROVED, AI-refereed; unconditional, no GRH).** (a) For f_23 = η(z)η(23z) (LMFDB 23.1.b.a, L(s, f_23) =
-  L(s, ψ) for the order-3 class-group character ψ of Q(√-23)), all zeros of H_t are real for t ≥ 19/50 + (374/1000)²/2 =
-  0.449938, so 0 ≤ Λ_ψ ≤ 0.449938. (b) For f_44 = η(2z)η(22z) (44.1.d.a): 0 ≤ Λ_χ ≤ 0.489938.
-- **Theorem P (product lemma; known, no novelty claimed).** For kernels of class D, Λ(Φ ∗ Ψ) ≤ max(Λ(Φ), Λ(Ψ), 0); for
-  F, G, FG in Dobner's extended Selberg class with γ_FG = γ_F γ_G, Λ_FG ≤ max(Λ_F, Λ_G).
-- **Corollaries.** Λ ≤ 953/3200 = 0.2978125 for the Dedekind zeta function of every quadratic field with fundamental
-  discriminant 3 ≤ |D| ≤ 400 (CONDITIONAL on the unrefereed preprint of Freire et al., arXiv:2610.27343); Λ ≤ 0.449938 for
-  the cubic field Q[x]/(x³ - x - 1) of discriminant -23 (rests on Theorem 1(a) and Platt-Trudgian) and for its sextic
-  Galois closure (also conditional on Freire et al.).
-- **Novelty** is a search floor (arXiv and Zenodo, 30 October 2026), not a clearance.
-
-Full statements, proofs and every assumption: [NOTE.md](NOTE.md). Status of every claim, with the bundle folder behind
-it: [bundle/STATUS.md](bundle/STATUS.md).
-
-## Use it as a tool
+## Reproduce and reuse
 
 Questions this lets you answer:
 
@@ -163,22 +182,6 @@ It writes `mybox.json` and `mybox.ckpt.jsonl`, and resumes from the checkpoint i
 re-running a name. Limits: it evaluates only the function of η(z)η(23z); it is slow far out (the 87 walks took 13.4
 hours); and it stops with "cannot certify step" rather than guess, for example when the path passes through a zero.
 
-## What we did not show
-
-- **No human expert has checked any of it.** All reviewers are AI reviewers. The tail lemma and the evaluator of
-  Theorem 1(a) had a single full review; Theorem 1(b) had one review of a pipeline shared with (a); Theorem P had one full
-  review plus a check of the identity and sign only.
-- Nothing here bears on the Riemann hypothesis. The gains over 1/2 are modest, and far weaker than the degree-1 bounds.
-- The quadratic-field corollary (and the multiquadratic and sextic ones) rest on an unrefereed 2026 preprint.
-- For Lieb-Sokal (1981) only the abstract was read; their integrability hypotheses were not checked against these kernels.
-  The proof written out in the note uses Borcea-Brändén instead.
-- The clean-room rebuild (15/15 checks) did not re-run the 87 walks (about 120 CPU-hours), the tail interval runs, the
-  Theorem 1(b) runs or the outlook runs; it re-combined and re-checked the stored walks.
-- The outlook in section 5 (a degree-2 effective formula) is HEURISTIC: nothing is claimed and no forecast is made.
-- Failures are on record: the first tail run FAILED on a code gap and was re-run under a sealed amendment; a sealed
-  wall-time prediction was missed (the run was faster); one outlook run lost its output to a writer bug.
-- "We found no earlier bound" is a search floor (arXiv and Zenodo, 30 October 2026), not a clearance.
-
 ## Words you will meet
 
 - **L-function** - a function built from whole numbers (or from a modular form), such as the Riemann zeta function.
@@ -195,43 +198,20 @@ hours); and it stops with "cannot certify step" rather than guess, for example w
 - **Sealed prediction** - a pass/fail bar written down and hashed before the run.
 - **Search floor** - a dated search of named sources; not proof that nobody did it before.
 
+## How to cite
+
+```
+Moki & Julio (2026). Explicit de Bruijn–Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23794434
+```
+
+The DOI always resolves to the newest archived version. Machine-readable: [CITATION.cff](CITATION.cff).
+Text and data: CC BY 4.0 ([LICENSE](LICENSE)). Code (all .gp, .py and .sh files): MIT ([LICENSE-CODE](LICENSE-CODE)).
+
+## Related projects
+
+- [ramanujan-septic-galois](https://github.com/Hashirama1337s/ramanujan-septic-galois): the blank pieces of a lost-notebook identity of Ramanujan, at every odd prime
+- All projects: [the Moki & Julio lab map](https://github.com/Hashirama1337s)
+
 ---
 
-## For specialists: the original README
-
-# Explicit de Bruijn–Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions
-
-**Moki & Julio · 2026** · DOI [10.5281/zenodo.23794434](https://doi.org/10.5281/zenodo.23794434) (v1.0)
-
-The note is [NOTE.md](NOTE.md). The code, sealed predictions, reports and checks behind it are in [bundle/](bundle/) (start with
-[bundle/README.md](bundle/README.md); public status table: [bundle/STATUS.md](bundle/STATUS.md)).
-
-## In plain words
-
-Every L-function carries a "heat dial" t. Turning the dial up smooths the function and pushes its zeros onto one line. The smallest
-setting at which every zero already sits on the line is the de Bruijn–Newman constant Λ. The generalised Riemann hypothesis for that
-L-function says Λ ≤ 0; it is known that Λ ≥ 0, and classical theory gives Λ ≤ 1/2 for free. Bounds below 1/2 were known only in "degree 1"
-(the Riemann zeta function, and since October 2026 real Dirichlet characters of small conductor, in a preprint).
-
-- We prove Λ ≤ 0.449938 for the degree-2 L-function of the modular form η(z)η(23z), and Λ ≤ 0.489938 for that of η(2z)η(22z). We found no
-  earlier bound below 1/2 in degree 2.
-- A short product lemma (an application of Lieb–Sokal 1981 and Borcea–Brändén; nothing new claimed for it) turns known bounds into the
-  first bounds below 1/2 for Dedekind zeta functions of number fields: Λ ≤ 0.2978 for every quadratic field with discriminant between 3 and
-  400 in absolute value (resting on an unrefereed 2026 preprint), and Λ ≤ 0.449938 for the cubic field of discriminant −23 and its degree-6
-  Galois closure.
-
-The gains over 1/2 are modest and nothing here bears on the Riemann hypothesis itself. Proofs were checked by independent AI reviewers,
-**not yet by a human expert**. Novelty statements are a search floor (arXiv and Zenodo, 30 October 2026), not a clearance.
-
-## Reproduce
-
-See [bundle/README.md](bundle/README.md) for commands and software versions, [bundle/CLEANROOM.md](bundle/CLEANROOM.md) for the clean-room
-record (15/15 checks; the 13-hour certified region walks were not re-run), and [bundle/REDACTIONS.md](bundle/REDACTIONS.md) for the files
-whose copies were redacted (names and machine paths only) with hashes before and after.
-
-## Licence and citation
-
-Text and data: CC BY 4.0 ([LICENSE](LICENSE)). Code (all .gp, .py and .sh files): MIT ([LICENSE-CODE](LICENSE-CODE)).
-Please cite via [CITATION.cff](CITATION.cff).
-
-*Prepared with AI assistance; all results are machine-checked.*
+*Prepared with AI assistance; what was checked, and by what, is stated above.*
