@@ -21,8 +21,8 @@ The smallest setting at which every zero already sits on the line is called the 
 known that Λ ≥ 0, and classical theory gives Λ ≤ 1/2 for free. The generalised Riemann hypothesis for that L-function
 says Λ ≤ 0.
 
-A picture that helps (it is only a picture): think of the function as a bumpy landscape, and of the dial as letting heat
-spread through it, so that the bumps flatten out. Where the picture breaks: the zeros live in the complex plane, a flat
+![](brand/icon-picture.svg) **The idea in one picture.** Think of the function as a bumpy landscape, and of the dial as letting heat
+spread through it, so that the bumps flatten out. **Where the picture breaks.** The zeros live in the complex plane, a flat
 map of numbers with two coordinates, and "onto the line" means onto one straight line on that map. The smoothing is an
 exact mathematical operation (a heat flow), not a temperature.
 

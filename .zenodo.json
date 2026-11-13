@@ -1,9 +1,9 @@
 {
-  "title": "Moki & Julio: Explicit de Bruijn-Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions",
+  "title": "Explicit de Bruijn-Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions",
   "upload_type": "publication",
   "publication_type": "preprint",
   "version": "1.0",
-  "description": "<p>We prove explicit upper bounds below the classical 1/2 for the de Bruijn-Newman-type constant of degree-2 L-functions: Lambda &lt;= 0.449938 for the L-function of the weight-one newform eta(z)eta(23z) and Lambda &lt;= 0.489938 for that of eta(2z)eta(22z), by a certified (interval-arithmetic) winding-number region, a proved tail estimate and de Bruijn's strip theorem; we found no earlier bound below 1/2 in degree 2. A product lemma, an application of Lieb-Sokal (1981) and Borcea-Branden (no novelty claimed for it), gives the first bounds below 1/2 for Dedekind zeta functions: Lambda &lt;= 0.2978 for quadratic fields with 3 &lt;= |D| &lt;= 400 (conditional on an unrefereed 2026 preprint) and Lambda &lt;= 0.449938 for the cubic field of discriminant -23 and its degree-6 Galois closure. Proofs were checked by independent AI reviewers, not yet by a human expert. Code, sealed predictions, reports and a clean-room record are included. Text CC BY 4.0; code MIT.</p>",
+  "description": "<p><b>In plain words.</b> \nNumber theorists study L-functions, functions built from whole numbers; the best known is the Riemann zeta function. The famous questions are about where such a function equals zero. Every L-function carries a 'heat dial'. Turning it up smooths the function and pushes its zeros onto one line. The smallest setting at which every zero already sits on the line is called the de Bruijn-Newman constant, and classical theory gives at most 1/2 for free. We proved that a setting of 0.449938 is enough for one L-function of 'degree 2' (that of the modular form η(z)η(23z)), and 0.489938 for a second one. We found no earlier bound below 1/2 in degree 2. The gains are modest and nothing here bears on the Riemann hypothesis itself. The proofs were checked by independent AI reviewers, not yet by a human expert.</p>\n<p><b>The idea in one picture.</b> think of the function as a bumpy landscape, and of the dial as letting heat spread through it, so that the bumps flatten out. <b>Where the picture breaks.</b> the zeros live in the complex plane, a flat map of numbers with two coordinates, and the smoothing is an exact mathematical operation (a heat flow), not a temperature.</p>\n<p><b>For specialists.</b> We prove explicit upper bounds below the classical 1/2 for the de Bruijn-Newman-type constant of degree-2 L-functions: Lambda &lt;= 0.449938 for the L-function of the weight-one newform eta(z)eta(23z) and Lambda &lt;= 0.489938 for that of eta(2z)eta(22z), by a certified (interval-arithmetic) winding-number region, a proved tail estimate and de Bruijn's strip theorem; we found no earlier bound below 1/2 in degree 2. A product lemma, an application of Lieb-Sokal (1981) and Borcea-Branden (no novelty claimed for it), gives the first bounds below 1/2 for Dedekind zeta functions: Lambda &lt;= 0.2978 for quadratic fields with 3 &lt;= |D| &lt;= 400 (conditional on an unrefereed 2026 preprint) and Lambda &lt;= 0.449938 for the cubic field of discriminant -23 and its degree-6 Galois closure. Proofs were checked by independent AI reviewers, not yet by a human expert. Code, sealed predictions, reports and a clean-room record are included. Text CC BY 4.0; code MIT.</p>\n<p><b>Links.</b> Repository, with a plain-language guide: <a href=\"https://github.com/Hashirama1337s/debruijn-newman-degree-two\">github.com/Hashirama1337s/debruijn-newman-degree-two</a>. All projects: <a href=\"https://github.com/Hashirama1337s\">the Moki &amp; Julio lab map</a>.</p>\n<p><i>Prepared with AI assistance; what was checked, and by what, is stated above.</i></p>",
   "creators": [
     {
       "name": "Moki & Julio"
@@ -19,7 +19,9 @@
     "Dedekind zeta function",
     "Laguerre-Polya class",
     "interval arithmetic",
-    "computer-assisted proof"
+    "computer-assisted proof",
+    "number theory",
+    "zeros of L-functions"
   ],
   "related_identifiers": [
     {
