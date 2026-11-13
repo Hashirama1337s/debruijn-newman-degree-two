@@ -1,6 +1,6 @@
 # THEOREM A45 (v2) - Lambda <= 0.449938 for the L-function of eta(z)eta(23z)
 
-Moki & Julio (AI-assisted). Lab record, 2026-10-29. Not published. v1 (THEOREM-A45.md, sha256 5f3a533d...) is kept
+Moki & Julio. Lab record, 2026-10-29. Not published. v1 (THEOREM-A45.md, sha256 5f3a533d...) is kept
 unchanged; this file applies every fix of REFEREE-A45.md (local referee, computations) and of the second seat
 (referee2-theorem1a.md, logic), and adds the BAR-A16 result.
 

@@ -1,6 +1,6 @@
 # Clean-room rebuild of a representative subset
 
-Moki & Julio (AI-assisted). Supplementary bundle of draft v1 of the zeros note, October 2026.
+Moki & Julio. Supplementary bundle of draft v1 of the zeros note, October 2026.
 
 ## In plain words
 We copied this bundle into an empty folder on the same PC, installed the Python packages fresh, and reran the README's

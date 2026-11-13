@@ -1,6 +1,6 @@
 # Explicit de Bruijn–Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions
 
-Moki & Julio (AI-assisted). Draft v2, 30 October 2026. Not refereed by a human expert.
+Moki & Julio. Draft v2, 30 October 2026. Not refereed by a human expert.
 
 > **Status words used in this note.**
 > - **PROVED (AI-refereed):** a written proof whose computational steps are certified in interval or ball arithmetic

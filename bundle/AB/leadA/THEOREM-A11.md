@@ -1,6 +1,6 @@
 # THEOREM A11 — the same explicit de Bruijn–Newman bound for a second degree-2 L-function (p = 11)
 
-Moki & Julio (AI-assisted). Lab record, 2026-10-28. Not published.
+Moki & Julio. Lab record, 2026-10-28. Not published.
 
 **Status:**
 - Every computational piece is certified and sealed: BAR-A9 (tail) HOLDS, BAR-A10 (control + rate) HOLDS, BAR-A11

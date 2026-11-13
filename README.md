@@ -5,7 +5,7 @@ setting of 1/2 is always enough. For the function of the modular form η(z)η(23
 found no earlier bound below 1/2 for a function of this kind ("degree 2"). The proof was checked by AI reviewers,
 not yet by a human expert. The gain is modest, and nothing here bears on the Riemann hypothesis itself.**
 
-**Moki & Julio (AI-assisted) · 2026** · DOI [10.5281/zenodo.23794434](https://doi.org/10.5281/zenodo.23794434) (v1.0)
+**Moki & Julio · 2026** · DOI [10.5281/zenodo.23794434](https://doi.org/10.5281/zenodo.23794434) (v1.0)
 
 **Read** [NOTE.md](NOTE.md) · **Re-run** [bundle/README.md](bundle/README.md) · **Check how far each claim is
 checked** [bundle/STATUS.md](bundle/STATUS.md)
@@ -201,7 +201,7 @@ hours); and it stops with "cannot certify step" rather than guess, for example w
 
 # Explicit de Bruijn–Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions
 
-**Moki & Julio (AI-assisted) · 2026** · DOI [10.5281/zenodo.23794434](https://doi.org/10.5281/zenodo.23794434) (v1.0)
+**Moki & Julio · 2026** · DOI [10.5281/zenodo.23794434](https://doi.org/10.5281/zenodo.23794434) (v1.0)
 
 The note is [NOTE.md](NOTE.md). The code, sealed predictions, reports and checks behind it are in [bundle/](bundle/) (start with
 [bundle/README.md](bundle/README.md); public status table: [bundle/STATUS.md](bundle/STATUS.md)).
@@ -233,3 +233,5 @@ whose copies were redacted (names and machine paths only) with hashes before and
 
 Text and data: CC BY 4.0 ([LICENSE](LICENSE)). Code (all .gp, .py and .sh files): MIT ([LICENSE-CODE](LICENSE-CODE)).
 Please cite via [CITATION.cff](CITATION.cff).
+
+*Prepared with AI assistance; all results are machine-checked.*

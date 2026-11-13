@@ -1,6 +1,6 @@
 # Status of every claim
 
-Moki & Julio (AI-assisted). Public status table for the supplementary bundle of draft v1 of the note, October 2026.
+Moki & Julio. Public status table for the supplementary bundle of draft v1 of the note, October 2026.
 
 ## In plain words
 This page lists each result of the note, what it says, and how far it has been checked. "PROVED (AI-refereed)" means a

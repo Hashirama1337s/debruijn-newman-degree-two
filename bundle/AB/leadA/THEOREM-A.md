@@ -1,6 +1,6 @@
 # THEOREM A — an explicit de Bruijn–Newman bound for a degree-2 L-function
 
-Moki & Julio (AI-assisted). Lab record, 2026-10-28. Not published.
+Moki & Julio. Lab record, 2026-10-28. Not published.
 
 **Status:**
 - Every computational piece is certified and sealed.

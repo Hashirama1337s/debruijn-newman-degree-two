@@ -1,6 +1,6 @@
 # Redactions: what was changed in this bundle, and why
 
-Moki & Julio (AI-assisted). Supplementary bundle of draft v1 of the zeros note, October 2026.
+Moki & Julio. Supplementary bundle of draft v1 of the zeros note, October 2026.
 
 ## In plain words
 The lab files behind the note mentioned the AI product used as a second referee, the folder paths of our machine and

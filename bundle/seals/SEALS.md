@@ -1,6 +1,6 @@
 # Seals and scores
 
-Moki & Julio (AI-assisted). Extract from the lab log for the supplementary bundle of the zeros note, October 2026.
+Moki & Julio. Extract from the lab log for the supplementary bundle of the zeros note, October 2026.
 
 ## In plain words
 Before every computation behind the note, we wrote down what it should print and the pass/fail rule, saved that as a

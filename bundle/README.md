@@ -1,6 +1,6 @@
 # Supplementary code and data: Explicit de Bruijn–Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions
 
-Moki & Julio (AI-assisted). Bundle for draft v1 of the note, October 2026.
+Moki & Julio. Bundle for draft v1 of the note, October 2026.
 
 ## In plain words
 This folder holds everything behind the note: the written proof records, the programs, what the programs printed, the
