@@ -376,6 +376,22 @@ propagate to C3 and C4.
   (about 120 CPU-hours); they are shipped as stored outputs, which the rebuild re-combined and re-checked for coverage,
   including the negative test. The tail interval runs, the Theorem 1(b) runs and the outlook runs were also not re-run.
 
+## Open doors
+
+What this note leaves open. None of it bears on the Riemann hypothesis itself.
+
+- **An effective degree-2 approximate functional equation.** Freire et al. reach 0.2978 in degree 1 with the Polymath15
+  architecture, whose core is an effective Riemann–Siegel-type approximation of H_t; no citable effective analogue for
+  degree 2 was found (§5). The two exploratory tests of §5 (main-term error 1.9·10^−4 at x ≈ 10,450, t = 1/4; crude window
+  bound E = 0.031) are consistent with this route, but the window lemma that would turn E into an error bound is unproved.
+  *Status:* UNTESTED observation from this work. *Start here:* §5; bundle `Z2/z2-1/`, `Z3/z3-1/`; the certified evaluator in
+  `AB/leadA/cert/`. *Ceiling:* the window lemma and a degree-2 effective formula; by Theorem P every improvement for
+  L(s, f_23) propagates to C3 and C4.
+- **Other degree-2 forms.** Ramanujan's Δ, the elliptic curve 11a and other eta-products are natural next candidates for
+  the method of §2 (not run; which steps carry over unchanged was not checked). *Status:* UNTESTED observation from this
+  work (not attempted here). *Start here:* bundle `AB/leadA/cert/`, `AB/leadA/tail/`, `AB/leadA/p11/` (the level-44
+  adaptation). *Ceiling:* explicit bounds Λ < 1/2 for Δ or for an elliptic-curve L-function.
+
 ## References (opened unless marked)
 - J. Borcea, P. Brändén, The Lee–Yang and Pólya–Schur programs. I. Linear operators preserving stability, Invent. Math.
   177 (2009) 541–569, arXiv:0809.0401: Thm 1.3, Thm 1.6, Lemma 1.7(4).

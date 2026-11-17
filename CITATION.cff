@@ -3,7 +3,7 @@ message: "If you use these results, proofs or tools, please cite them as below. 
 title: "Explicit de Bruijn–Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions"
 authors:
   - name: "Moki & Julio"
-version: "1.0"
+version: "1.0.1"
 date-released: "2026-10-30"
 doi: "10.5281/zenodo.23794431"
 repository-code: "https://github.com/Hashirama1337s/debruijn-newman-degree-two"

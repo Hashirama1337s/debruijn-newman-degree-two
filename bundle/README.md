@@ -137,3 +137,9 @@ on 9 workers; delete `fin_*` first). Theorem 1(a): `bash AB/leadA/cert/run_finit
 `python -I amend1_prepare45.py` (in `AB/leadA/cert`, run once before the six superseded top walks start) and
 `bash AB/leadA/cert/run_pieces45.sh` then re-split those tops into the 75 pieces, as described in `BAR-A14-AMEND1.md`
 (13.4 hours on 9 cores, about 120 CPU-hours; delete `g45_*` first). Both runners use `py -3.11`.
+
+## Figures
+The two figures of the repository's front page are drawn from the stored walk files of this bundle only:
+`python figures/make_figures.py .`, run from the repository root, one level above this folder (Python 3.11 +
+matplotlib 3.11; seconds). The script and the figures sit in `figures/` at the repository root, outside this bundle,
+so they are not listed in `SHA256SUMS`.

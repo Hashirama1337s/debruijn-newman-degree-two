@@ -4,7 +4,7 @@
 
 [![DOI 10.5281/zenodo.23794431](brand/doi.svg)](https://doi.org/10.5281/zenodo.23794431) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
-Moki & Julio · 2026 · version 1.0
+Moki & Julio · 2026 · version 1.0.1
 
 **Read** [NOTE.md](NOTE.md) · **Re-run** [bundle/README.md](bundle/README.md) · **Check how far each claim is
 checked** [bundle/STATUS.md](bundle/STATUS.md)
@@ -85,6 +85,10 @@ both are real. So for this toy Λ = 1/2 exactly. The lab uses it as a check that
 
 For the real L-function the argument has two turns of the dial, with a computer proof in between.
 
+![The proven ceiling on how far any zero can sit from the line, against the heat dial t: the classical curve reaches the line at 1/2; after a computer proof cuts the ceiling at t = 0.38 it reaches the line at 0.449938 for η(z)η(23z), and at 0.489938 for η(2z)η(22z)](figures/heat-dial-ceiling.svg)
+
+*The heat dial t runs left to right; the height is a proven ceiling on how far any zero can sit from the line (not where the zeros actually are). Grey dashed: the classical rule, which starts at distance 1 and reaches the line at t = 1/2. Blue, for the L-function of η(z)η(23z): follow the same rule to t = 0.38, where the ceiling is 0.4899; a computer proof shows there are no zeros between 0.374 and 0.4899, so the ceiling drops to 0.374; the same rule then reaches the line at t = 0.449938. Orange, for η(2z)η(22z): the same steps at t = 0.42, reaching the line at t = 0.489938. So the de Bruijn-Newman constant of each function is at most that value (it is at least 0). The proofs were checked by independent AI reviewers, not yet by a human expert, and nothing here bears on the Riemann hypothesis.*
+
 ```mermaid
 flowchart LR
   A[Start: every zero lies within<br/>distance 1 of the line] --> B[Turn the dial to t = 0.38:<br/>now within 0.4899]
@@ -115,6 +119,10 @@ is computed in **ball arithmetic**: each number carries a guaranteed error bar, 
 - Far region, x ≥ 12,500: a written estimate (the "tail lemma") shows that the first term of the series outweighs the
   error terms. It is checked in interval boxes up to x = 2·10^12 and by a monotonicity argument beyond.
 - Below the line: the function is symmetric, so the lower half mirrors the upper half.
+
+![The zero-free band certified at t = 0.38: a green box from x = 0 to 12,500 and y = 0.374 to 0.5 walked by 87 certified walks with winding number 0, a tail strip beyond x = 12,500, and the region above 0.4899 already excluded by de Bruijn's rule](figures/zero-free-band.svg)
+
+*The computer step of Theorem 1(a), at heat setting t = 0.38, drawn in the quarter of the complex plane with x and y positive (the other quarters follow by symmetry; the two axes have different scales). Above 0.4899 (shaded) de Bruijn's rule already excludes zeros. The green box, 0 ≤ x ≤ 12,500 and 0.374 ≤ y ≤ 0.5, is certified empty: its boundary is covered exactly by 87 walks (drawn), with 196,660 evaluations in ball arithmetic, and the function's value winds around zero 0 times. Beyond x = 12,500 a written estimate (the tail lemma), checked in 210 interval boxes up to x = 2·10^12 and by a monotone bound beyond, does the same for 0.374 ≤ y ≤ 0.49. Below 0.374 zeros may exist; a second turn of the dial, by 0.374^2/2, brings them all to the line.*
 
 **Checks that the walker can see zeros.** Around a box known to hold zeros it must find them, and it does: winding 2 on
 [5, 15] × [-1/5, 1/5], and winding 5 on [12496, 12500] × [-1/2, 1/2], equal to 5 sign changes counted by an independent
@@ -198,14 +206,37 @@ hours); and it stops with "cannot certify step" rather than guess, for example w
 - **Sealed prediction** - a pass/fail bar written down and hashed before the run.
 - **Search floor** - a dated search of named sources; not proof that nobody did it before.
 
+## Open doors
+
+What this note leaves open, for anyone who wants to take a next step; none of these is a step towards the Riemann hypothesis
+itself.
+
+- **A degree-2 version of the degree-1 shortcut formula.** The degree-1 bounds of Freire et al. (2026) rest on an effective
+  formula of Riemann-Siegel type (a short sum that approximates the function, with a proven error). We found no citable
+  degree-2 version. Two exploratory tests for η(z)η(23z) were consistent with one working: a degree-2 copy of the main term
+  tracked the certified function to a relative error of 1.9·10^-4, and a crude bound on the awkward middle of the sum
+  stayed at 0.031 at x ≈ 10,450, t = 1/4. Neither bounds anything, because the lemma that would turn them into a proof is
+  unproved. *Status:* UNTESTED observation from this work. *Start here:* section 5 of [NOTE.md](NOTE.md),
+  `bundle/Z2/z2-1/` (main-term test), `bundle/Z3/z3-1/` (crude bound) and the certified evaluator in
+  `bundle/AB/leadA/cert/` as the reference. *Ceiling:* a proven effective formula in degree 2; via Theorem P, any better
+  bound for η(z)η(23z) passes directly to the cubic and sextic fields of section 4.
+- **The same method for other degree-2 forms.** Ramanujan's Δ (level 1), the L-function of the elliptic curve of conductor
+  11 and other eta-products are natural next candidates for the same certified winding-number method; nothing was run on
+  them, and we have not checked which steps carry over unchanged. *Status:* UNTESTED observation from this work (not
+  attempted here). *Start here:* the level-23 walker and tail code in `bundle/AB/leadA/cert/` and `bundle/AB/leadA/tail/`,
+  and the level-44 copies in `bundle/AB/leadA/p11/`, which show what changes from one form to another. *Ceiling:* explicit
+  bounds below 1/2 for Δ or for an elliptic-curve L-function, with certified open code.
+
 ## How to cite
 
 ```
-Moki & Julio (2026). Explicit de Bruijn–Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23794431
+Moki & Julio (2026). Explicit de Bruijn–Newman bounds below 1/2 in degree 2, and a product lemma for Dedekind zeta functions. Version 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.23794431
 ```
 
 The DOI always resolves to the newest archived version. Version 1.0 is 10.5281/zenodo.23794434. Machine-readable: [CITATION.cff](CITATION.cff).
 Text and data: CC BY 4.0 ([LICENSE](LICENSE)). Code (all .gp, .py and .sh files): MIT ([LICENSE-CODE](LICENSE-CODE)).
+
+v1.0.1: adds Open doors and figures; no change to the certified results.
 
 ## Related projects
 
